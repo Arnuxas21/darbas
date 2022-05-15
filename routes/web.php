@@ -35,4 +35,3 @@ Route::post('/users',[UserController::class,'store']);
 Route::post('/logout',[UserController::class,'logout'])->middleware('auth');
 Route::get('/login',[UserController::class,'login'])->name('login')->middleware('guest');
 Route::post('/users/authenticate',[UserController::class,'authenticate']);
-Route::get('/listings/manage',[ListingController::class,'manage'])->middleware('auth');
