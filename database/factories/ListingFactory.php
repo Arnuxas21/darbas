@@ -18,7 +18,7 @@ class ListingFactory extends Factory
     {
         return [
           'title' => $this->faker-> sentence(),
-          'tags' => 'darbas, apmokamas, sunkus'  ,
+          'tags' => 'darbas, apmokamas, sunkuss'  ,
           'company' => $this->faker->company(),
           'email' => $this->faker->companyEmail(),
           'website' => $this->faker->url(),
